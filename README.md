@@ -1,8 +1,8 @@
 ##Description
 ExtractZip consists of a pipeline used to extract a .zip file.
 
-ExtractZip component
-Extracts a .zip files entries to one file per entry. 
+##ExtractZip component
+The ExtractZip component extracts .zip file entries to one file per entry. 
 
 _No parameters_
 
