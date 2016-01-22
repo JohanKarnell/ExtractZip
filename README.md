@@ -1,4 +1,4 @@
-Description
+##Description
 ExtractZip consists of a pipeline used to extract a .zip file.
 
 ExtractZip component
