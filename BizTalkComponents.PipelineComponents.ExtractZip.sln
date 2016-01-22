@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PipelineComponents.ExtractZip", "Src\ExtractZip\BizTalkComponents.PipelineComponents.ExtractZip.csproj", "{7E97DD02-E9A9-4CE4-9175-1F83E9DFE8CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{A8862195-C734-4BE7-9AC6-107E14A2D078}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Build.proj = Build\Build.proj
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PipelineComponents.ExtractZip.Tests.UnitTests", "Tests\UnitTests\BizTalkComponents.PipelineComponents.ExtractZip.Tests.UnitTests.csproj", "{628742DA-4AC4-4483-8562-23B080CCBDBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E97DD02-E9A9-4CE4-9175-1F83E9DFE8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E97DD02-E9A9-4CE4-9175-1F83E9DFE8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E97DD02-E9A9-4CE4-9175-1F83E9DFE8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E97DD02-E9A9-4CE4-9175-1F83E9DFE8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628742DA-4AC4-4483-8562-23B080CCBDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628742DA-4AC4-4483-8562-23B080CCBDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628742DA-4AC4-4483-8562-23B080CCBDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628742DA-4AC4-4483-8562-23B080CCBDBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
