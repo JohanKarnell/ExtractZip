@@ -64,8 +64,7 @@ namespace BizTalkComponents.PipelineComponents.ExtractZip
                             outMessage.AddPart("Body", pContext.GetMessageFactory().CreateMessagePart(), true);
                             entryStream.Position = 0;
                             outMessage.BodyPart.Data = entryStream;
-
-                            pInMsg.Context.Promote(new ContextProperty(FileProperties.ReceivedFileName), entry.Name);
+                            ContextExtensions.Promote(pInMsg.Context, new ContextProperty(FileProperties.ReceivedFileName), entry.Name);
                             outMessage.Context = PipelineUtil.CloneMessageContext(pInMsg.Context);
                             _qOutMessages.Enqueue(outMessage);
                         }
